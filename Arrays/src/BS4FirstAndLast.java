@@ -1,5 +1,5 @@
 import java.util.*;
-public class BS4FirstAndLast { //Oh Bencho Gajab
+public class BS4FirstAndLast {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class BS4FirstAndLast { //Oh Bencho Gajab
                     if (arr[mid - 1] == arr[mid]) //arr[mid-1 = 4]=3
                     {
                         e = mid - 1;
-                        continue; //e=4 and s=0
+                         //e=4 and s=0
                     } else {
                         index = mid;
                         break; // Index = 3
@@ -57,7 +57,7 @@ public class BS4FirstAndLast { //Oh Bencho Gajab
                      if (arr[mid + 1] == arr[mid])
                      {
                          s = mid + 1;
-                         continue;
+
                      } else {
                          index = mid;
                          break;
