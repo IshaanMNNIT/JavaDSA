@@ -3,7 +3,7 @@ public class BS4FirstAndLast {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-        int arr[]={1,1,2,3,3,3,4,4,4,5,5,5};
+        int arr[]={1,1,2,3,3,3,4,4,4,5,5,5}; //length  = 12
         System.out.println("Enter the target : ");
         int target = in.nextInt();
         System.out.println("["+first(arr,target)+","+last(arr,target)+"]");
@@ -12,7 +12,8 @@ public class BS4FirstAndLast {
     {
         int s=0;
         int e=arr.length-1; // e=11
-        int mid;int index=-1; // arr[5] = 3 ? First Occurrence at index 5 NO!
+        int mid;
+        int index=-1; // arr[5] = 3 ? First Occurrence at index 5 NO!
         while(s<=e)
         { //target = 3
             mid = (s+e)/2;//(i>mid = 5 and arr[5]=3) (ii>mid = 2 and arr[2]=2 and target>arr[mid])
