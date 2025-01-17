@@ -2,9 +2,8 @@ import java.util.*;
 public class RotationCount {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int arr[] = {4,5,6,8,9,0,1,2,3};
+        int arr[] = {1,3,4};
         System.out.println(getkey(arr));
-        System.out.println("Rotation Count : "+(arr.length-getkey(arr)));
     }
     static int getkey(int arr[])
     {
@@ -42,5 +41,6 @@ public class RotationCount {
         return key;
 
     }
+
 
 }
