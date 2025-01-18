@@ -18,8 +18,8 @@ public class SplitArray {
     }
     static int splitArray(int[]nums,int m)
     {
-        int start=0,end=0,mid=0,pieces=0,i=0,sum=0;
-        for(i=0;i<nums.length-1;i++)
+        int start=nums[0],end=0,mid=0,pieces=0,sum=0;
+        for(int i=0;i<nums.length-1;i++)
         {
             start=Math.max(nums[i],start);
             end=end+nums[i];
