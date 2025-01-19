@@ -49,6 +49,7 @@ public class SplitArray {
             if(pieces<=m)end=mid;
             if(pieces>m)start=mid+1;
         }
+        // There is always an answer
         return end;
     }
 
