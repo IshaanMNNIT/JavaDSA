@@ -17,7 +17,7 @@ public class SelectionSort {
     }
     static int []sort(int arr[])
     {
-        int i , j , pos=0 , max , temp;
+        int i , j , pos , max , temp;
         for(i=arr.length-1;i>=0;i--)
         {
             pos=i;
