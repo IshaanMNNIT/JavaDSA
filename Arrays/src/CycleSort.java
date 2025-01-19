@@ -15,20 +15,22 @@ public class CycleSort {
     }
     static int []sort(int arr[])
     {
-        int i ,temp;
-        i=0;
-        while(i<arr.length)
+        int i , temp , corr_pos;
+        i = 0;
+        while(i < arr.length)
         {
-            int correct = arr[i]-1;
-            if(arr[i]!=arr[correct])
+            corr_pos = arr[i] - 1;
+            if(arr[i] != arr[corr_pos])
             {
-                temp=arr[i];
-                arr[i]=arr[correct];
-                arr[correct]=temp;
+                temp = arr[i];
+                arr[i] = arr[corr_pos];
+                arr[corr_pos] = temp;
             }
-            else {
+            else
+            {
                 i++;
             }
+
         }
         return arr;
     }
