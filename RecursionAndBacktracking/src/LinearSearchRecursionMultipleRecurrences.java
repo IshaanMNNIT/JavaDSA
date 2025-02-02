@@ -28,4 +28,19 @@ public class LinearSearchRecursionMultipleRecurrences {
         }
         return Search(arr,target,i+1,list);
     }
+    static ArrayList<Integer> Search2(int arr[] , int target ,int i)
+    {
+        ArrayList<Integer> list = new ArrayList<>();
+        if(i == arr.length)
+        {
+            return list;
+        }
+        if(arr[i] == target)
+        {
+            list.add(i);
+        }
+        ArrayList<Integer> ansFromBelow = Search2(arr,target,i+1);
+        list.addAll(ansFromBelow);
+        return list;
+    }
 }
