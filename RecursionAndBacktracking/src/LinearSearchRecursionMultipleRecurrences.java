@@ -10,8 +10,8 @@ public class LinearSearchRecursionMultipleRecurrences {
         }
         System.out.println("Enter the Target : ");
         int target = in.nextInt();
-        ArrayList<Integer> list = new ArrayList<>();
-        list = Search(arr,target,0,list);
+        ArrayList<Integer> list;
+        list = Search2(arr,target,0);
         if(list.size() == 0) {
             System.out.println("Not Found !");
             return;
@@ -39,8 +39,7 @@ public class LinearSearchRecursionMultipleRecurrences {
         {
             list.add(i);
         }
-        ArrayList<Integer> ansFromBelow = Search2(arr,target,i+1);
-        list.addAll(ansFromBelow);
+        list.addAll(Search2(arr,target,i+1));
         return list;
     }
 }
