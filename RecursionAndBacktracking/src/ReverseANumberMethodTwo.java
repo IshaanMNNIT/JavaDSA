@@ -7,7 +7,8 @@ public class ReverseANumberMethodTwo {
     }
 
     private static int helper(int n, int digits) {
-        if (n%10 == n) {
+        if (n%10 == n) // to check if its single digit number
+        {
             return n;
         }
         int rem = n % 10;
