@@ -12,14 +12,8 @@ public class SelectionSortRecursion {
         if(j <= arr.length - i - 1)
         {
             if(arr[max] < arr[j])
-            {
                 max = j;
-                selectionSort(arr,i,j+1,max);
-            }
-            else
-            {
-                selectionSort(arr,i,j+1,max);
-            }
+            selectionSort(arr,i,j+1,max);
         }
         else
         {
