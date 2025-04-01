@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/BitManipulationAndMathematics/BitManipulationAndMathematics.iml" filepath="$PROJECT_DIR$/BitManipulationAndMathematics/BitManipulationAndMathematics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaDSA.iml" filepath="$PROJECT_DIR$/.idea/JavaDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/RecursionAndBacktracking/RecursionAndBacktracking.iml" filepath="$PROJECT_DIR$/RecursionAndBacktracking/RecursionAndBacktracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
     </modules>
