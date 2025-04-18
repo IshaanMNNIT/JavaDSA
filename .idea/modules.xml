@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/RecursionAndBacktracking/RecursionAndBacktracking.iml" filepath="$PROJECT_DIR$/RecursionAndBacktracking/RecursionAndBacktracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreesInJava/SegmentTrees/SegmentTrees.iml" filepath="$PROJECT_DIR$/TreesInJava/SegmentTrees/SegmentTrees.iml" />
       <module fileurl="file://$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" filepath="$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/TreesInJava/TreesInJava.iml" filepath="$PROJECT_DIR$/TreesInJava/TreesInJava.iml" />
