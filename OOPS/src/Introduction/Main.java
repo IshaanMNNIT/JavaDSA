@@ -16,7 +16,7 @@ public class Main {
             String[] name = new String[5];
             float[] marks = new float[5];
 
-            Student[] students = new Student[5];
+            Student[] students = new Student[5]; // Array of objects of class Student each having an attribute
 
             // just declaring
 //        Student kunal;
@@ -91,7 +91,7 @@ class Student {
 
 
     // Student arpit = new Student(17, "Arpit", 89.7f);
-    // here, this will be replaced with arpit
+    // here, 'this' will be replaced with arpit
     Student (int rno, String name, float marks) {
         this.rno = rno;
         this.name = name;

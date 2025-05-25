@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" filepath="$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/TreesInJava/TreesInJava.iml" filepath="$PROJECT_DIR$/TreesInJava/TreesInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreesInJava/TreesQuestions/TreesQuestions.iml" filepath="$PROJECT_DIR$/TreesInJava/TreesQuestions/TreesQuestions.iml" />
     </modules>
   </component>
 </project>
