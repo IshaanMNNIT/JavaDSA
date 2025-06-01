@@ -2,7 +2,7 @@ package staticExample;
 
 import java.util.Arrays;
 
-public class InnerClasses {
+public class InnerClasses {  // Outside Classes cannot be static
 
     static class Test {
         String name;
@@ -27,6 +27,6 @@ public class InnerClasses {
     }
 }
 
-//static class A {
+//static class A { // ERROR because outer class itself is not dependent on any other class
 //
 //}
