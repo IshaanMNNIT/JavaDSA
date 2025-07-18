@@ -45,7 +45,7 @@ public class LongestSubarrayWithSumK {
             int max = -1;
             for(int i = 0 ; i < arr.length ; i++)
             {
-                sum+=arr[0];
+                sum+=arr[i];
                 if(sum == k)
                 {
                     max = Math.max(max,i+1);
